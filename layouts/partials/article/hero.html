@@ -11,8 +11,10 @@
             </div>
         </header>
         {{ with .Page.Params.hero }}
-        <div class="article-hero-image" id="ArticleImage__Hero">
-            <img src="{{ . }}">
+        <div style="position: absolute; left: 50%;">
+            <div style="position: relative; left: -50%;">
+                <img src="{{ . }}">
+            </div>
         </div>
         {{ end }}
     </div>
